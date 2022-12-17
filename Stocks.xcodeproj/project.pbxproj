@@ -15,6 +15,9 @@
 		BBDBCA09294E4B2F0079C0FC /* TopStoriesNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBCA08294E4B2F0079C0FC /* TopStoriesNewsViewController.swift */; };
 		BBDBCA0B294E4B6B0079C0FC /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBCA0A294E4B6B0079C0FC /* SearchResultsViewController.swift */; };
 		BBDBCA0D294E4B8F0079C0FC /* StockViewDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBCA0C294E4B8F0079C0FC /* StockViewDetailsViewController.swift */; };
+		BBDBCA0F294E551E0079C0FC /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBCA0E294E551E0079C0FC /* APICaller.swift */; };
+		BBDBCA11294E554A0079C0FC /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBCA10294E554A0079C0FC /* PersistenceManager.swift */; };
+		BBDBCA13294E55730079C0FC /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBCA12294E55730079C0FC /* HapticsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		BBDBCA08294E4B2F0079C0FC /* TopStoriesNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStoriesNewsViewController.swift; sourceTree = "<group>"; };
 		BBDBCA0A294E4B6B0079C0FC /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		BBDBCA0C294E4B8F0079C0FC /* StockViewDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewDetailsViewController.swift; sourceTree = "<group>"; };
+		BBDBCA0E294E551E0079C0FC /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		BBDBCA10294E554A0079C0FC /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		BBDBCA12294E55730079C0FC /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		BBDBCA06294E46010079C0FC /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				BBDBCA0E294E551E0079C0FC /* APICaller.swift */,
+				BBDBCA10294E554A0079C0FC /* PersistenceManager.swift */,
+				BBDBCA12294E55730079C0FC /* HapticsManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -186,6 +195,9 @@
 				BBDBC9F4294E44DA0079C0FC /* WatchListViewController.swift in Sources */,
 				BBDBCA0D294E4B8F0079C0FC /* StockViewDetailsViewController.swift in Sources */,
 				BBDBCA09294E4B2F0079C0FC /* TopStoriesNewsViewController.swift in Sources */,
+				BBDBCA11294E554A0079C0FC /* PersistenceManager.swift in Sources */,
+				BBDBCA0F294E551E0079C0FC /* APICaller.swift in Sources */,
+				BBDBCA13294E55730079C0FC /* HapticsManager.swift in Sources */,
 				BBDBC9F0294E44DA0079C0FC /* AppDelegate.swift in Sources */,
 				BBDBC9F2294E44DA0079C0FC /* SceneDelegate.swift in Sources */,
 				BBDBCA0B294E4B6B0079C0FC /* SearchResultsViewController.swift in Sources */,
